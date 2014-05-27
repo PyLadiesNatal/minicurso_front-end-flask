@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    background: #eee;
+    background-size: auto 4em; 
+    font-size: 16px;
+    min-height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+}
+
+div {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18;
+}
+
+a {
+    font-size: 18;
+    text-decoration: none;
+    color: #55bb58;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    right: 0px;
+    left: 0px;
+    font-family: "PT Sans",Helvetica,Arial,sans-serif;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #202020; 
+}
+
+    .sidebar ul {
+        margin-left: 30%;
+    }
+
+    .sidebar ul li {
+        float:left; 
+        display: inline-block;
+    }
+
+    .sidebar ul li a { 
+        text-decoration: none;
+        color: #fff; 
+        padding-left: 5em;
+    }
+
+.title-pyladies { 
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    color: #505050; 
+}
+
+    .pyladies-img {
+        width: 350px; 
+    }
+
+.cabeca-pyladies { 
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    color: #505050; 
+}
+
+    .cabeca-img {
+        width: 350px; 
+    }
+
+ 
+.wrap {
+    margin-left: 15%; 
+    min-width: 960px;  
+} 
+
+.conteiner {
+    width: 60%;  
+    margin-top: 10%;
+    margin-left: 18%;
+}
+
+    #post {
+        text-align: center;
+        font-family: 'Quicksand';
+        font-size: 5em;
+        color: #8B0000;
+    }
+
+.btn {
+    background: #bbb;
+    color: #666;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 0.75em;
+}
+
+    .btn.btn-green {
+        background: #55bb58;
+        color: #fff;
+    }
+
+.box {
+    background: #fff;
+    padding: 1em;
+    list-style-type: none;
+}
+
+.clear {
+    clear: both;
+}
